@@ -7,7 +7,7 @@ const app = express()
 const productManager = new ProductManager('products.json')
 
 
-// ASIGNACION DE RUTAS
+// ASIGNACION DE RUTAS (ENDPOINTS)
 
 app.get('/products', async (req,res)=>{
     const {limit} = req.query

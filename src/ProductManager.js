@@ -1,5 +1,6 @@
 import fs from 'fs'
 
+
 export class ProductManager {
 
   constructor(path) {
